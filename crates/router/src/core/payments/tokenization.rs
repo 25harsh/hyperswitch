@@ -190,7 +190,8 @@ where
                 };
 
             let pm_id = if customer_acceptance.is_some() {
-                let payment_method_data = save_payment_method_data.request.get_payment_method_data();
+                let payment_method_data =
+                    save_payment_method_data.request.get_payment_method_data();
                 let payment_method_create_request =
                     payment_methods::get_payment_method_create_request(
                         Some(&payment_method_data),
@@ -230,7 +231,8 @@ where
                         merchant_context,
                         payment_method_create_request.clone(),
                         is_network_tokenization_enabled,
-                    ).await?
+                    )
+                    .await?
                 };
                 let network_token_locker_id = match network_token_resp {
                     Some(ref token_resp) => {
@@ -243,10 +245,7 @@ where
                     None => None,
                 };
 
-                let optional_pm_details = match (
-                    resp.card.as_ref(),
-                    payment_method_data,
-                ) {
+                let optional_pm_details = match (resp.card.as_ref(), payment_method_data) {
                     (Some(card), _) => Some(PaymentMethodsData::Card(
                         CardDetailsPaymentMethod::from(card.clone()),
                     )),
@@ -1530,14 +1529,13 @@ pub async fn save_card_and_network_token_in_locker(
     payment_method_create_request: api::PaymentMethodCreate,
     is_network_tokenization_enabled: bool,
 ) -> RouterResult<(
-        (
-            api_models::payment_methods::PaymentMethodResponse,
-            Option<payment_methods::transformers::DataDuplicationCheck>,
-            Option<String>,
-        ),
-        Option<api_models::payment_methods::PaymentMethodResponse>,
-    )>
-{
+    (
+        api_models::payment_methods::PaymentMethodResponse,
+        Option<payment_methods::transformers::DataDuplicationCheck>,
+        Option<String>,
+    ),
+    Option<api_models::payment_methods::PaymentMethodResponse>,
+)> {
     let network_token_requestor_reference_id = payment_method_info
         .and_then(|pm_info| pm_info.network_token_requestor_reference_id.clone());
 
@@ -1578,9 +1576,8 @@ pub async fn save_card_and_network_token_in_locker(
         Some(hyperswitch_domain_models::payments::VaultOperation::SaveCardAndNetworkTokenData(
             save_card_and_network_token_data,
         )) => {
-            let card_data = api::CardDetail::from(
-                save_card_and_network_token_data.card_data.clone(),
-            );
+            let card_data =
+                api::CardDetail::from(save_card_and_network_token_data.card_data.clone());
 
             let network_token_data = api::CardDetail::from(
                 save_card_and_network_token_data
@@ -1589,9 +1586,7 @@ pub async fn save_card_and_network_token_in_locker(
                     .clone(),
             );
 
-            if payment_method_status
-                == common_enums::PaymentMethodStatus::Active
-            {
+            if payment_method_status == common_enums::PaymentMethodStatus::Active {
                 let (res, dc) = Box::pin(save_in_locker(
                     state,
                     merchant_context,
@@ -1602,15 +1597,13 @@ pub async fn save_card_and_network_token_in_locker(
                 .change_context(errors::ApiErrorResponse::InternalServerError)
                 .attach_printable("Add Card In Locker Failed")?;
 
-                let (network_token_resp, _dc, _) = Box::pin(
-                    save_network_token_in_locker(
-                        state,
-                        merchant_context,
-                        &save_card_and_network_token_data.card_data,
-                        Some(network_token_data),
-                        payment_method_create_request.clone(),
-                    ),
-                )
+                let (network_token_resp, _dc, _) = Box::pin(save_network_token_in_locker(
+                    state,
+                    merchant_context,
+                    &save_card_and_network_token_data.card_data,
+                    Some(network_token_data),
+                    payment_method_create_request.clone(),
+                ))
                 .await
                 .change_context(errors::ApiErrorResponse::InternalServerError)
                 .attach_printable("Add Network Token In Locker Failed")?;
