@@ -241,7 +241,7 @@ All notable changes to HyperSwitch will be documented here.
 ### Features
 
 - **connector:**
-  - [GETNET,HIPAY,KLARNA,MONERIS,OPENNODE] add in feature matrix api ([#7873](https://github.com/juspay/hyperswitch/pull/7873)) ([`69ba651`](https://github.com/juspay/hyperswitch/commit/69ba651abd13de76e603dab8bbc56c5f3ee2176c))
+  - [GETNET,KLARNA,MONERIS,OPENNODE] add in feature matrix api ([#7873](https://github.com/juspay/hyperswitch/pull/7873)) ([`69ba651`](https://github.com/juspay/hyperswitch/commit/69ba651abd13de76e603dab8bbc56c5f3ee2176c))
   - Fix FPX refunds for Fiuu ([#7890](https://github.com/juspay/hyperswitch/pull/7890)) ([`f71bbb5`](https://github.com/juspay/hyperswitch/commit/f71bbb50043d41defbfa6c07e882fb720dd16e32))
 - **payment-link:** Alternate text for manual captures ([#7574](https://github.com/juspay/hyperswitch/pull/7574)) ([`fa46593`](https://github.com/juspay/hyperswitch/commit/fa465930936aadf46a9e35a3152f27eb8ad02ab6))
 - **wasm:** Fetch list of country codes and country names ([#7642](https://github.com/juspay/hyperswitch/pull/7642)) ([`63d9b53`](https://github.com/juspay/hyperswitch/commit/63d9b534d0b6a3bc3d88f1e6bc0475e248fd6660))
@@ -612,7 +612,6 @@ All notable changes to HyperSwitch will be documented here.
 
 ### Bug Fixes
 
-- **connectors:** [Hipay] Fix 3DS Mandatory Fields ([#7603](https://github.com/juspay/hyperswitch/pull/7603)) ([`446716e`](https://github.com/juspay/hyperswitch/commit/446716ee20440c1937c1b988b2ea3ce58d23089c))
 
 ### Refactors
 
@@ -892,7 +891,6 @@ All notable changes to HyperSwitch will be documented here.
 
 ### Features
 
-- **connector:** [Hipay] Add Card Payments Flow ([#7475](https://github.com/juspay/hyperswitch/pull/7475)) ([`3e7db57`](https://github.com/juspay/hyperswitch/commit/3e7db573211ed61eadde3b601575f3472bda2b1f))
 - **router:** Add connector field to PaymentRevenueRecoveryMetadata and implement schedule_failed_payment ([#7462](https://github.com/juspay/hyperswitch/pull/7462)) ([`aa337ee`](https://github.com/juspay/hyperswitch/commit/aa337eee9cae96056a5ce6d8a9eb9c84f4d376fe))
 
 ### Refactors
@@ -980,8 +978,7 @@ All notable changes to HyperSwitch will be documented here.
 
 - **core:**
   - Add bulk tokenization flows ([#7066](https://github.com/juspay/hyperswitch/pull/7066)) ([`2ff0d4f`](https://github.com/juspay/hyperswitch/commit/2ff0d4f956112ea71f4ecb2a48fd756a12578dab))
-  - Add record attempt operation for revenue recovery webhooks ([#7236](https://github.com/juspay/hyperswitch/pull/7236)) ([`24aa003`](https://github.com/juspay/hyperswitch/commit/24aa00341f907e7b77df9348f62d1416cc098691))
-- **hipay:** Add Template PR ([#7360](https://github.com/juspay/hyperswitch/pull/7360)) ([`add5152`](https://github.com/juspay/hyperswitch/commit/add51526de9594f34c71809077fb2fe27ba0868d))
+  - Add record attempt operation for revenue recovery webhooks ([#7236](https://github.com/juspay/hyperswitch/pull/7236)) 
 
 ### Bug Fixes
 

@@ -276,7 +276,6 @@ default_imp_for_new_connector_integration_payment!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -392,7 +391,6 @@ default_imp_for_new_connector_integration_refund!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -503,7 +501,6 @@ default_imp_for_new_connector_integration_connector_access_token!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -619,7 +616,7 @@ default_imp_for_new_connector_integration_accept_dispute!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -734,7 +731,7 @@ default_imp_for_new_connector_integration_submit_evidence!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -850,7 +847,7 @@ default_imp_for_new_connector_integration_defend_dispute!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -976,7 +973,7 @@ default_imp_for_new_connector_integration_file_upload!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1094,7 +1091,7 @@ default_imp_for_new_connector_integration_payouts_create!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1212,7 +1209,7 @@ default_imp_for_new_connector_integration_payouts_eligibility!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1330,7 +1327,7 @@ default_imp_for_new_connector_integration_payouts_fulfill!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1448,7 +1445,7 @@ default_imp_for_new_connector_integration_payouts_cancel!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1566,7 +1563,7 @@ default_imp_for_new_connector_integration_payouts_quote!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1684,7 +1681,7 @@ default_imp_for_new_connector_integration_payouts_recipient!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1802,7 +1799,7 @@ default_imp_for_new_connector_integration_payouts_sync!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -1920,7 +1917,7 @@ default_imp_for_new_connector_integration_payouts_recipient_account!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2036,7 +2033,7 @@ default_imp_for_new_connector_integration_webhook_source_verification!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2154,7 +2151,7 @@ default_imp_for_new_connector_integration_frm_sale!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2272,7 +2269,7 @@ default_imp_for_new_connector_integration_frm_checkout!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2390,7 +2387,7 @@ default_imp_for_new_connector_integration_frm_transaction!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2508,7 +2505,7 @@ default_imp_for_new_connector_integration_frm_fulfillment!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2626,7 +2623,7 @@ default_imp_for_new_connector_integration_frm_record_return!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2741,7 +2738,7 @@ default_imp_for_new_connector_integration_revoking_mandates!(
     connectors::Globepay,
     connectors::Gocardless,
     connectors::Gpayments,
-    connectors::Hipay,
+
     connectors::Helcim,
     connectors::Iatapay,
     connectors::Inespay,
@@ -2836,7 +2833,7 @@ default_imp_for_new_connector_integration_frm!(
     connectors::Fiuu,
     connectors::Forte,
     connectors::Globepay,
-    connectors::Hipay,
+
     connectors::Gocardless,
     connectors::Gpayments,
     connectors::Helcim,
@@ -2954,7 +2951,7 @@ default_imp_for_new_connector_integration_connector_authentication!(
     connectors::Gocardless,
     connectors::Gpayments,
     connectors::Helcim,
-    connectors::Hipay,
+
     connectors::Inespay,
     connectors::Jpmorgan,
     connectors::Juspaythreedsserver,
@@ -3058,7 +3055,7 @@ default_imp_for_new_connector_integration_revenue_recovery!(
     connectors::Gocardless,
     connectors::Gpayments,
     connectors::Helcim,
-    connectors::Hipay,
+
     connectors::Inespay,
     connectors::Jpmorgan,
     connectors::Juspaythreedsserver,

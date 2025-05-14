@@ -1303,19 +1303,6 @@ fn get_cards_required_fields() -> HashMap<Connector, RequiredFieldFinal> {
         (Connector::Forte, fields(vec![], card_with_name(), vec![])),
         (Connector::Globalpay, fields(vec![], vec![], card_basic())),
         (
-            Connector::Hipay,
-            fields(
-                vec![],
-                vec![],
-                [
-                    vec![RequiredField::BillingEmail],
-                    billing_address(),
-                    card_with_name(),
-                ]
-                .concat(),
-            ),
-        ),
-        (
             Connector::Helcim,
             fields(
                 vec![],
