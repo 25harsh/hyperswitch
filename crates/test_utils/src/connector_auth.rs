@@ -106,7 +106,6 @@ pub struct ConnectorAuthentication {
     pub wise: Option<BodyKey>,
     pub worldpay: Option<BodyKey>,
     pub worldpayxml: Option<HeaderKey>,
-    pub xendit: Option<HeaderKey>,
     pub worldline: Option<SignatureKey>,
     pub zen: Option<HeaderKey>,
     pub zsl: Option<BodyKey>,

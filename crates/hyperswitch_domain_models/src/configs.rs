@@ -110,7 +110,6 @@ pub struct Connectors {
     pub worldline: ConnectorParams,
     pub worldpay: ConnectorParams,
     pub worldpayxml: ConnectorParams,
-    pub xendit: ConnectorParams,
     pub zen: ConnectorParams,
     pub zsl: ConnectorParams,
 }

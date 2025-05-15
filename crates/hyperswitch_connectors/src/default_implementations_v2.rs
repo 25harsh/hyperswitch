@@ -332,7 +332,7 @@ default_imp_for_new_connector_integration_payment!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -448,7 +448,7 @@ default_imp_for_new_connector_integration_refund!(
     connectors::Volt,
     connectors::Worldpay,
     connectors::Worldpayxml,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -559,7 +559,7 @@ default_imp_for_new_connector_integration_connector_access_token!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -675,7 +675,7 @@ default_imp_for_new_connector_integration_accept_dispute!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -790,7 +790,7 @@ default_imp_for_new_connector_integration_submit_evidence!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -906,7 +906,7 @@ default_imp_for_new_connector_integration_defend_dispute!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1032,7 +1032,7 @@ default_imp_for_new_connector_integration_file_upload!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1150,7 +1150,7 @@ default_imp_for_new_connector_integration_payouts_create!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1268,7 +1268,7 @@ default_imp_for_new_connector_integration_payouts_eligibility!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1386,7 +1386,7 @@ default_imp_for_new_connector_integration_payouts_fulfill!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1504,7 +1504,7 @@ default_imp_for_new_connector_integration_payouts_cancel!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1622,7 +1622,7 @@ default_imp_for_new_connector_integration_payouts_quote!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1740,7 +1740,7 @@ default_imp_for_new_connector_integration_payouts_recipient!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1858,7 +1858,7 @@ default_imp_for_new_connector_integration_payouts_sync!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -1976,7 +1976,7 @@ default_imp_for_new_connector_integration_payouts_recipient_account!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2092,7 +2092,7 @@ default_imp_for_new_connector_integration_webhook_source_verification!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2210,7 +2210,7 @@ default_imp_for_new_connector_integration_frm_sale!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2328,7 +2328,7 @@ default_imp_for_new_connector_integration_frm_checkout!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2446,7 +2446,7 @@ default_imp_for_new_connector_integration_frm_transaction!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2564,7 +2564,7 @@ default_imp_for_new_connector_integration_frm_fulfillment!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2682,7 +2682,7 @@ default_imp_for_new_connector_integration_frm_record_return!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2796,7 +2796,7 @@ default_imp_for_new_connector_integration_revoking_mandates!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2878,7 +2878,7 @@ default_imp_for_new_connector_integration_frm!(
     connectors::Volt,
     connectors::Worldpay,
     connectors::Worldpayxml,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -2991,7 +2991,7 @@ default_imp_for_new_connector_integration_connector_authentication!(
     connectors::Volt,
     connectors::Worldpay,
     connectors::Worldpayxml,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -3096,7 +3096,7 @@ default_imp_for_new_connector_integration_revenue_recovery!(
     connectors::Volt,
     connectors::Worldpay,
     connectors::Worldpayxml,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );

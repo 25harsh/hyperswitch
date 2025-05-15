@@ -1957,7 +1957,6 @@ impl TryFrom<(&types::PaymentsAuthorizeRouterData, MinorUnit)> for PaymentIntent
                 (charges, None)
             }
             Some(common_types::payments::SplitPaymentsRequest::AdyenSplitPayment(_))
-            | Some(common_types::payments::SplitPaymentsRequest::XenditSplitPayment(_))
             | None => (None, item.connector_customer.to_owned().map(Secret::new)),
         };
 

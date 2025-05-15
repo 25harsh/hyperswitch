@@ -207,7 +207,7 @@ default_imp_for_authorize_session_token!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -320,7 +320,7 @@ default_imp_for_calculate_tax!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -425,7 +425,7 @@ default_imp_for_session_update!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::Powertranz,
@@ -537,7 +537,7 @@ default_imp_for_post_session_tokens!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Powertranz,
     connectors::Prophetpay,
     connectors::Threedsecureio,
@@ -650,7 +650,7 @@ default_imp_for_update_metadata!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Powertranz,
     connectors::Prophetpay,
     connectors::Riskified,
@@ -755,7 +755,7 @@ default_imp_for_complete_authorize!(
     connectors::Worldline,
     connectors::Worldpayxml,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -868,7 +868,7 @@ default_imp_for_incremental_authorization!(
     connectors::Worldpay,
     connectors::Worldpayxml,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -980,7 +980,7 @@ default_imp_for_create_customer!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1292,7 +1292,7 @@ default_imp_for_post_processing_steps!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1407,7 +1407,7 @@ default_imp_for_approve!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1522,7 +1522,7 @@ default_imp_for_reject!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1636,7 +1636,7 @@ default_imp_for_webhook_source_verification!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1750,7 +1750,7 @@ default_imp_for_accept_dispute!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1863,7 +1863,7 @@ default_imp_for_submit_evidence!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -1976,7 +1976,7 @@ default_imp_for_defend_dispute!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2098,7 +2098,7 @@ default_imp_for_file_upload!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2197,7 +2197,7 @@ default_imp_for_payouts!(
     connectors::Worldpayxml,
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2309,7 +2309,7 @@ default_imp_for_payouts_create!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2424,7 +2424,7 @@ default_imp_for_payouts_retrieve!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2537,7 +2537,7 @@ default_imp_for_payouts_eligibility!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2646,7 +2646,7 @@ default_imp_for_payouts_fulfill!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2759,7 +2759,7 @@ default_imp_for_payouts_cancel!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2873,7 +2873,7 @@ default_imp_for_payouts_quote!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -2987,7 +2987,7 @@ default_imp_for_payouts_recipient!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3103,7 +3103,7 @@ default_imp_for_payouts_recipient_account!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3218,7 +3218,7 @@ default_imp_for_frm_sale!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3333,7 +3333,7 @@ default_imp_for_frm_checkout!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3448,7 +3448,7 @@ default_imp_for_frm_transaction!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3563,7 +3563,7 @@ default_imp_for_frm_fulfillment!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3678,7 +3678,7 @@ default_imp_for_frm_record_return!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3787,7 +3787,7 @@ default_imp_for_revoking_mandates!(
     connectors::Worldpay,
     connectors::Worldpayxml,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl,
     connectors::CtpMastercard
@@ -3901,7 +3901,7 @@ default_imp_for_uas_pre_authentication!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4013,7 +4013,7 @@ default_imp_for_uas_post_authentication!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4126,7 +4126,7 @@ default_imp_for_uas_authentication_confirmation!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4231,7 +4231,7 @@ default_imp_for_connector_request_id!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4338,7 +4338,7 @@ default_imp_for_fraud_check!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4474,7 +4474,7 @@ default_imp_for_connector_authentication!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4585,7 +4585,7 @@ default_imp_for_uas_authentication!(
     connectors::Worldpay,
     connectors::Worldpayxml,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4692,7 +4692,7 @@ default_imp_for_revenue_recovery! {
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 }
@@ -4807,7 +4807,7 @@ default_imp_for_billing_connector_payment_sync!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -4921,7 +4921,7 @@ default_imp_for_revenue_recovery_record_back!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
+
     connectors::Zen,
     connectors::Zsl
 );
@@ -5037,7 +5037,6 @@ default_imp_for_billing_connector_invoice_sync!(
     connectors::Wellsfargo,
     connectors::Wellsfargopayout,
     connectors::Volt,
-    connectors::Xendit,
     connectors::Zen,
     connectors::Zsl
 );

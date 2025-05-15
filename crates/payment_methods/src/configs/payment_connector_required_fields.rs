@@ -1478,18 +1478,6 @@ fn get_cards_required_fields() -> HashMap<Connector, RequiredFieldFinal> {
             ),
         ),
         (
-            Connector::Xendit,
-            fields(
-                vec![],
-                vec![],
-                [
-                    card_basic(),
-                    vec![RequiredField::BillingEmail, RequiredField::BillingPhone],
-                ]
-                .concat(),
-            ),
-        ),
-        (
             Connector::Zen,
             RequiredFieldFinal {
                 mandate: HashMap::new(),

@@ -4589,19 +4589,6 @@ where
             {
                 router_data = router_data.preprocessing_steps(state, connector).await?;
                 (router_data, should_continue_payment)
-            } else if connector.connector_name == router_types::Connector::Xendit
-                && is_operation_confirm(&operation)
-            {
-                match payment_data.get_payment_intent().split_payments {
-                    Some(common_types::payments::SplitPaymentsRequest::XenditSplitPayment(
-                        common_types::payments::XenditSplitRequest::MultipleSplits(_),
-                    )) => {
-                        router_data = router_data.preprocessing_steps(state, connector).await?;
-                        let is_error_in_response = router_data.response.is_err();
-                        (router_data, !is_error_in_response)
-                    }
-                    _ => (router_data, should_continue_payment),
-                }
             } else if connector.connector_name == router_types::Connector::Redsys
                 && router_data.auth_type == common_enums::AuthenticationType::ThreeDs
                 && is_operation_confirm(&operation)

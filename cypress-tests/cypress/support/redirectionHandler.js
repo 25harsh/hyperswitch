@@ -384,26 +384,6 @@ function threeDsRedirection(redirectionUrl, expectedUrl, connectorId) {
 
         case "nmi":
         case "noon":
-        case "xendit":
-          cy.get("iframe", { timeout: constants.TIMEOUT })
-            .its("0.contentDocument.body")
-            .within(() => {
-              cy.get("iframe", { timeout: constants.TIMEOUT })
-                .its("0.contentDocument.body")
-                .within(() => {
-                  cy.get('form[name="cardholderInput"]', {
-                    timeout: constants.TIMEOUT,
-                  })
-                    .should("exist")
-                    .then(() => {
-                      cy.get('input[name="challengeDataEntry"]')
-                        .click()
-                        .type("1234");
-                      cy.get('input[value="SUBMIT"]').click();
-                    });
-                });
-            });
-          break;
 
         case "novalnet":
           cy.get("form", { timeout: constants.WAIT_TIME })

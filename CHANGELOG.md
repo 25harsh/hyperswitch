@@ -493,7 +493,6 @@ All notable changes to HyperSwitch will be documented here.
 - **authentication:** Create authentications to fallback to ApiKeyAuth if AdminApiAuth fails ([#7744](https://github.com/juspay/hyperswitch/pull/7744)) ([`d6c26c5`](https://github.com/juspay/hyperswitch/commit/d6c26c5d75652a2ba2ecfbc0df7d33172df1705b))
 - **connector:**
   - Add recovery support for recurly [v2] ([#7497](https://github.com/juspay/hyperswitch/pull/7497)) ([`68e22ee`](https://github.com/juspay/hyperswitch/commit/68e22eefe81980666737e34336210dbea57ff40d))
-  - [AIRWALLEX, ELAVON, NOVALNET, XENDIT] add in feature API ([#7163](https://github.com/juspay/hyperswitch/pull/7163)) ([`98738d0`](https://github.com/juspay/hyperswitch/commit/98738d0b923415a0f72ea9d7b535ab376bc12a20))
 - **router:** Support `card` in `payment_method_subtype` [V2] ([#7662](https://github.com/juspay/hyperswitch/pull/7662)) ([`187cceb`](https://github.com/juspay/hyperswitch/commit/187cceb39d760ada4f1df816f8174d59602e68eb))
 - Add open API reference for Intelligent router ([#7727](https://github.com/juspay/hyperswitch/pull/7727)) ([`bce9d48`](https://github.com/juspay/hyperswitch/commit/bce9d48277853824668e09d774ce55352623e243))
 
@@ -1011,8 +1010,6 @@ All notable changes to HyperSwitch will be documented here.
 
 ### Bug Fixes
 
-- **xendit:** Fix wasm changes ([#7419](https://github.com/juspay/hyperswitch/pull/7419)) ([`134c86e`](https://github.com/juspay/hyperswitch/commit/134c86ed623aa9e8d62385222c43edc31e131d12))
-
 ### Refactors
 
 - **core:** Added payment id in authentication router data ([#7441](https://github.com/juspay/hyperswitch/pull/7441)) ([`ea81706`](https://github.com/juspay/hyperswitch/commit/ea817060cff879139909b36ad61814857b862866))
@@ -1069,8 +1066,6 @@ All notable changes to HyperSwitch will be documented here.
 - **connector:** Add functionality for transforming QR image color ([#7414](https://github.com/juspay/hyperswitch/pull/7414)) ([`0e16e1b`](https://github.com/juspay/hyperswitch/commit/0e16e1b2b73a4613aac2771bc094259645a19fba))
 - **core:** Add support for cards bin update ([#7194](https://github.com/juspay/hyperswitch/pull/7194)) ([`8e922d3`](https://github.com/juspay/hyperswitch/commit/8e922d30da367bc0baf3cba64a86c385764fff39))
 - **cypress:** Add last used tests ([#7310](https://github.com/juspay/hyperswitch/pull/7310)) ([`d70288a`](https://github.com/juspay/hyperswitch/commit/d70288aef5b3ec549aa6ed907914473586036630))
-- **xendit:** Add Payment Webhooks ([#7277](https://github.com/juspay/hyperswitch/pull/7277)) ([`6553e29`](https://github.com/juspay/hyperswitch/commit/6553e29e478a70e4d2f0124e5a55931377bd8123))
-
 ### Refactors
 
 - **connector:** [AUTHORIZEDOTNET,CHECKOUT,NOON,OPAYO,OPENNODE,PAYME,TRUSTPAY] Move to crate hyperswitch_connectors ([#7235](https://github.com/juspay/hyperswitch/pull/7235)) ([`241653b`](https://github.com/juspay/hyperswitch/commit/241653bd69e3503241f7556d363c243292a4603d))
@@ -1228,7 +1223,6 @@ All notable changes to HyperSwitch will be documented here.
 - **core:** Add support for confirmation flow for click to pay ([#6982](https://github.com/juspay/hyperswitch/pull/6982)) ([`74bbf4b`](https://github.com/juspay/hyperswitch/commit/74bbf4bf271d45e61e594857707250c95a86f43f))
 - **router:**
   - Add Payments - List endpoint for v2 ([#7191](https://github.com/juspay/hyperswitch/pull/7191)) ([`d1f537e`](https://github.com/juspay/hyperswitch/commit/d1f537e22909a3580dbf9069852f4257fdbad66b))
-  - [Xendit] add support for split payments ([#7143](https://github.com/juspay/hyperswitch/pull/7143)) ([`451acba`](https://github.com/juspay/hyperswitch/commit/451acba005a85228925da5b6c252815d58f96fd7))
 
 ### Bug Fixes
 
@@ -1663,7 +1657,6 @@ All notable changes to HyperSwitch will be documented here.
 
 ### Features
 
-- **connector:** [Xendit] ADD Cards & Mandates Flow ([#6966](https://github.com/juspay/hyperswitch/pull/6966)) ([`bbf8844`](https://github.com/juspay/hyperswitch/commit/bbf884460c010e6ebc5f93f6fe6ff079e2463d90))
 - **core:** Diesel models, domain models and db interface changes for callback_mapper table ([#6571](https://github.com/juspay/hyperswitch/pull/6571)) ([`043cf8e`](https://github.com/juspay/hyperswitch/commit/043cf8e0c14e1818ec8e931140f1694d10b7b837))
 
 ### Refactors
@@ -2346,7 +2339,6 @@ All notable changes to HyperSwitch will be documented here.
 ### Features
 
 - **connector:**
-  - [Xendit] Template PR ([#6593](https://github.com/juspay/hyperswitch/pull/6593)) ([`9bc363f`](https://github.com/juspay/hyperswitch/commit/9bc363f140afcdc3d4dc624d6410a42c33afaeed))
   - [AIRWALLEX] Update production endpoint ([#6632](https://github.com/juspay/hyperswitch/pull/6632)) ([`bc65a84`](https://github.com/juspay/hyperswitch/commit/bc65a848a14c1e5c8a50cf4bf5764a7af2918ac9))
 - **themes:** Add `theme_name` and `entity_type` in themes table ([#6621](https://github.com/juspay/hyperswitch/pull/6621)) ([`bf13c16`](https://github.com/juspay/hyperswitch/commit/bf13c16109d0113f900c806b0722895a36ec2d5a))
 

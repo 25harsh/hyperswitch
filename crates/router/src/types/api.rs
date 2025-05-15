@@ -524,9 +524,6 @@ impl ConnectorData {
                 }
                 // enums::Connector::Worldpayxml => { Ok(ConnectorEnum::Old(Box::new(connector::Worldpayxml)))
                 // },
-                enums::Connector::Xendit => {
-                    Ok(ConnectorEnum::Old(Box::new(connector::Xendit::new())))
-                }
                 enums::Connector::Mifinity => {
                     Ok(ConnectorEnum::Old(Box::new(connector::Mifinity::new())))
                 }
